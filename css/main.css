@@ -1,18 +1,36 @@
+html {
+  font-family: minion-pro-display, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
   font-family: coquette, sans-serif;
   font-weight: 900;
 }
 
-h2 {
+h2,
+h3 {
   font-family: coquette, sans-serif;
   font-weight: 700;
+}
+
+.btn {
+  background-color: #666;
+  border-color: #666;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-invisible {
   padding: 0;
   background-color: #fff;
   border-color: #fff;
-  color: #000;
+  color: #666;
 }
 
 .btn-invisible:focus,
@@ -20,6 +38,67 @@ h2 {
   background-color: #fff;
   border-color: #fff;
   color: #000;
+}
+
+.current {
+  background-color: #333;
+  border-color: #333;
+}
+
+.dark-grey {
+  color: #333;
+}
+
+.medium-grey {
+  color: #666;
+}
+
+.section-line {
+  border-bottom: 2px solid #666;
+}
+
+.card {
+  text-decoration: none;
+  color: #666;
+  transition: all .2s ease-in-out;
+}
+
+.card p {
+  background: -webkit-linear-gradient(#666 0%, #fff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card:hover p,
+.card:focus p {
+  background: -webkit-linear-gradient(#000 100%, #fff 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card:focus,
+.card:hover {
+  color: #000;
+  transform: scale(1.05);
+}
+
+.desaturate {
+  filter: saturate(70%);
+}
+
+.card:hover .desaturate,
+.card:focus .desaturate {
+  filter: saturate(100%);
+}
+
+img {
+  border-radius: 10px;
+}
+
+.grey-footer {
+  color: #fff;
+  background-color: #666;
+  border-radius: 8px;
 }
 
 @media only screen and (min-width: 38em) {
