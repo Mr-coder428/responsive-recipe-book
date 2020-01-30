@@ -2,17 +2,20 @@ html {
   font-family: minion-pro-display, serif;
   font-weight: 400;
   font-style: normal;
+  hyphens: auto;
 }
 
 h1 {
   font-family: coquette, sans-serif;
   font-weight: 900;
+  hyphens: none;
 }
 
 h2,
 h3 {
   font-family: coquette, sans-serif;
   font-weight: 700;
+  hyphens: none;
 }
 
 .btn {
