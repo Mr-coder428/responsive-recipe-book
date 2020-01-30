@@ -103,6 +103,14 @@ img {
   margin-left: 0;
 }
 
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.sans {
+  font-family: Verdana, sans-serif;
+}
+
 .grey-footer {
   color: #fff;
   background-color: #666;
