@@ -95,6 +95,10 @@ img {
   border-radius: 10px;
 }
 
+.max-length {
+  margin-left: 0;
+}
+
 .grey-footer {
   color: #fff;
   background-color: #666;
