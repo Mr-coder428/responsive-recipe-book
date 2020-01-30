@@ -12,7 +12,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   font-family: coquette, sans-serif;
   font-weight: 700;
   hyphens: none;
